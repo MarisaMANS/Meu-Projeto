@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,75 +9,89 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
+
 <body>
     <main>
         <header class="imagem">
             <img src="img/avatar.jpg" alt="Perfil">
         </header>
-        <div class="nome">Marisa Silva </div>
-
-            <section class="redes-sociais"> <!-- Inicio da Seção-->
-                <div class="icone">
-                    <a href="#" target="_blank"><i class="ph ph-github-logo"></i></a>
-                    <span><a href="#">GitHub</a></span>
-                </div>
-                <div class="icone">
-                    <a href="#" target="_blank"><i class="ph ph-instagram-logo"></i></a>
-                    <span><a href="#">Instagram</a></span>
-                </div>
-                <div class="icone">
-                    <a href="#" target="_blank"><i class="ph ph-facebook-logo"></i></a>
-                    <span><a href="">Facebook</a></span>
-                </div>
-                <div class="icone">
-                    <a href="" target="_blank"><i class="ph ph-twitch-logo"></i></a>
-                    <span><a href="#">Twitch</a></span>
-                </div>
-                <div id="email">
-                    <a href="mailto:marisa_apa_recida@hotmail.com">
-                    <i class="ph-bold ph-envelope-simple"></i></a>
-                </div>
-            </section> <!-- Fim da Seção // section  -->
-
-
-            <div class="texto">
-                <h2 class="sobre-mim"> Sobre Mim </h2>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias aliquid rerum ipsa ratione eveniet quos dicta dolor ut. Repellendus expedita delectus consequatur facilis possimus molestiae inventore distinctio maxime? Sint, et? </p>
+        <div class="nome">Marisa Silva</div>
+        <div class="redes-sociais">
+            <div class="icone">
+                <a href="#" target="_blank"><i class="ph ph-github-logo"></i></a>
+                <span><a href="#">GitHub</a></span>
             </div>
+            <div class="icone">
+                <a href="#" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+                <span><a href="">Instagram</a></span>
+            </div>
+            <div class="icone">
+                <a href="#" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+                <span><a href="">Facebook</a></span>
+            </div>
+            <div class="icone">
+                <a href="" target="_blank"><i class="ph ph-twitch-logo"></i></a>
+                <span><a href="#">Twitch</a></span>
+            </div>
+            <div class="email">
+                <a href="mailto:marisa_apa_recida@hotmail.com">
+                    <i class="ph-bold ph-envelope-simple"></i></a>
+            </div>
+        </div> <!-- Fim DIV Redes Sociais  -->
 
-            <h2 class="subtítulo"> Linguagens de Programação </h2>
+        <div class="texto">
+            <h2 class="sobre-mim ">"Sobre mim" </h2>
 
-            <section class="linguagem">
-                <img src="img/front.jpeg" alt="linguagens Front-End">
-                
-                <img src="img/back.jpeg" alt="linguagens Beck-End">
-           </section>
-
-           <section class="projetos">
-            <h2 class="subtitulo"> Conheça os Meus Projetos</h2>
-
-            <div class="item" id="formulario"> Conteudo 01 </div>
-              <iframe width="500" height="250"class=movieform" id="movie" src="https://www.youtube.com/embed/YMIMgdtQyvg" title="Programador Front End – Curso de Qualificação em Tecnologia da Informação | Senai São Paulo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
-
-              <div class="item" id="site"> Conteudo 02 </div>
-              <iframe width="500" height="250"class=moviesite" id="moviesite" src="https://www.youtube.com/embed/YMIMgdtQyvg" title="Programador Front End – Curso de Qualificação em Tecnologia da Informação | Senai São Paulo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
-
-              <div class="item" id="portifolio"> Conteudo 03 </div>
-              <iframe width="500" height="250"class=movieport" id="movieport" src="https://www.youtube.com/embed/YMIMgdtQyvg" title="Programador Front End – Curso de Qualificação em Tecnologia da Informação | Senai São Paulo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"
-
-               
-
-           </section><!-- Fim da Seção Projetos-->
-
-           <footer>
-            <p> &copy;2023 | Marisa Silva </p>
-           </footer>
-               
-
+            <p>Formação em Gestão de Tecnologia da Informação,MBA Gestãode de Projetos.Certificações:SRCUM;DevOps;ITIL
+                V3;Cobit 2019;NSE 1 Network Security Associate;NSE 2 Network Security Associate Fundamentos;Lei de Dados
+                Proteção LGPD.Estou extremamente interessada em fazer parte de uma equipe de desenvolvimento como
+                estagiário(a) ou dev Júnior.Busco ser uma desenvolvedora full stack, venho trabalhando as minha
+                habilidades em programação com projetos pessoais e concluindo alguns cursos de tecnologia.
+            </p>
+        </div> <!--FIM div Texto -->
 
 
+        <h2 class="subtitulo">Linguagens para Treinamentos</h2>
 
+        <section class="linguagem">
+            <img src="img/front.jpeg" alt="Projetos Front End">
+
+            <img src="img/back.jpeg" alt="Projetos Back End">
+        </section>
+
+        <section class="projetos"> <!-- seção de Vídeos -->
+            <h2 class="subtitulo"> Conheça os Nossos Eventos </h2> <!-- Título da seção -->
+
+            <div id="album" class="item">Album de Fotos</div>
+            <iframe width="500" height="250" id="videoAlbum" class="video"
+                src="https://www.youtube.com/embed/-DWGfn09cXQ"
+                title="A inclusão transforma vidas | #InclusãoÉIsso - Teaser" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <div id="casamentos" class="item"> Casamentos </div>
+            <iframe width="500" height="250" id="videoCasamentos" class="video"
+                src="https://www.youtube.com/embed/33JsmaAw_gA"
+                title="23 de setembro: Dia da Educação Profissional e Tecnológica" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <div id="buffet" class="item"> Buffet </div>
+            <iframe width="500" height="250" id="videoBuffet" class="video"
+                src="https://www.youtube.com/embed/33JsmaAw_gA"
+                title="23 de setembro: Dia da Educação Profissional e Tecnológica" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+
+        </section> <!-- Fim seção de Vídeos -->
+
+        <footer> <!-- Roda pé do site -->
+            <p> &copy; 2023 Marisa Silva </p>
+        </footer>
 
     </main>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
